@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="theme-color" content="#0f0f1a">
-<title>타로 상담</title>
+<title>AI 타로 상담 - 무료 온라인 타로 카드 직접 뽑기 | 원카드·쓰리카드·켈틱 크로스</title>
 
 
 
@@ -27,7 +27,8 @@
 body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Apple SD Gothic Neo','Malgun Gothic',sans-serif;background:var(--bg);color:var(--text);min-height:100dvh}
 main{max-width:480px;margin:0 auto;padding:28px 16px 48px}
 h1{font-size:24px;text-align:center}
-.sub{color:var(--text2);text-align:center;font-size:14px;margin:6px 0 20px}
+.sub{color:var(--text2);text-align:center;font-size:14px;margin:6px 0 8px}
+.intro{color:var(--text2);text-align:center;font-size:12px;line-height:1.6;margin:0 0 20px}
 textarea{width:100%;height:90px;resize:none;padding:14px;border-radius:14px;border:1px solid var(--border);background:var(--surface2);color:var(--text);font:inherit;font-size:15px;outline:none}
 textarea:focus{border-color:var(--accent)}
 .row{display:flex;gap:8px;margin-top:10px}
@@ -94,10 +95,11 @@ label.rv{display:flex;align-items:center;gap:6px;font-size:13px;color:var(--text
 <body>
 <main>
   <div class="top">
-    <h1>🔮 타로 상담</h1>
+    <h1>🔮 AI 타로 상담</h1>
     <button id="manualBtn" type="button" aria-haspopup="dialog">📖 설명서</button>
   </div>
   <p class="sub">마음속 질문을 적고, 직관이 이끄는 카드를 직접 골라보세요.</p>
+  <p class="intro">78장 타로 덱에서 카드를 직접 골라 뽑으면, AI가 뽑힌 카드와 위치의 의미를 바탕으로 질문에 맞춰 해석해 드립니다. 원카드, 쓰리카드, 켈틱 크로스 스프레드를 지원하며 역방향 카드 포함 여부도 선택할 수 있습니다.</p>
   <textarea id="q" maxlength="200" placeholder="예) 이번 달에 이직 준비를 시작해도 될까요?"></textarea>
   <div class="row" id="sps"></div>
   <label class="rv"><input type="checkbox" id="rev" checked> 역방향 카드 포함</label>
@@ -111,7 +113,7 @@ label.rv{display:flex;align-items:center;gap:6px;font-size:13px;color:var(--text
 </main>
 <div id="manual" role="dialog" aria-modal="true" aria-labelledby="mTitle">
   <div class="sheet">
-    <header><h2 id="mTitle">📖 타로 상담 사용 설명서</h2><button id="mClose" type="button" aria-label="닫기">✕</button></header>
+    <header><h2 id="mTitle">📖 AI 타로 상담 사용 설명서</h2><button id="mClose" type="button" aria-label="닫기">✕</button></header>
     <div class="mbody">
       <h3>1. 이런 앱이에요</h3>
       <p>고민을 적고 타로 카드를 직접 뽑으면, 뽑힌 카드와 각 카드의 위치(의미)를 바탕으로 AI가 질문에 맞춰 해석해 주는 타로 상담 앱입니다. 78장의 정식 타로 덱(메이저 아르카나 22장 + 마이너 아르카나 56장)을 사용합니다.</p>
