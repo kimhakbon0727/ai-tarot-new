@@ -34,8 +34,8 @@ AI 타로 상담 new!!
 - [x] 소유확인 완료 (HTML 태그 방식)
   - `index.html`의 `<head>`에 `naver-site-verification` 메타태그 추가
 - [x] robots.txt 수집 확인 (검증 > robots.txt)
-- [ ] 사이트맵 제출: `https://ai-tarot-new.vercel.app/sitemap.xml`
-- [ ] 웹 페이지 수집 요청: `https://ai-tarot-new.vercel.app/`
+- [x] 사이트맵 제출: `https://ai-tarot-new.vercel.app/sitemap.xml` (2026-11-02 15:13)
+- [x] 웹 페이지 수집 요청: `https://ai-tarot-new.vercel.app/` (2026-11-02 15:13)
 - [ ] 색인 확인: 서치어드바이저 > 검증 > 색인 상태 확인
 - 참고: 소유확인은 검색 노출을 보장하지 않습니다. 신규 사이트는 색인에 며칠~몇 주 걸릴 수 있습니다.
 - 네이버에서 `site:ai-tarot-new.vercel.app` 검색 시 아직 결과 없음 (등록 직후, 2026-11-02 15:16 기준)
